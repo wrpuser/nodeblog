@@ -1,0 +1,39 @@
+增、删、改、查
+
+增 `INSERT INTO 表名 (字段列表) VALUES (值列表)`
+
+
+删 `DELETE FROM 表名 WHERE id=${req.query.id}`
+
+
+改 `UPDATE 表名 SET title=${title}`
+
+
+查 `SELECT * FROM 表名`
+
+
+WHERE字句    附加条件   WHERE id=1
+
+
+ORDER字句    排序   ASC/DESC
+
+
+GROUP字句    聚类  合并相同的  
+
+	     COUNT计数
+
+	     MIN最小的
+
+	     MAX最大的
+
+	     AVG平均值
+
+	     SUM求和
+
+
+LIMIT        用于分页    
+
+limit m,n 读取从m+1条开始到第n条数据
+
+limit m   读取前m条记录
+

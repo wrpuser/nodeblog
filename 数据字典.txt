@@ -1,0 +1,33 @@
+文章
+
+	文章标题
+ 	
+	文章描述
+	
+	文章图片
+
+	文章内容
+
+	文章作者
+
+	发布时间
+
+
+
+article(article_table)
+
+	id           (int)       
+
+	title        (varchar)   32
+
+	description  (varchar)   300
+
+	src          (varchar)   60
+
+	content      (text)
+
+	author       (varchar)   32
+
+	post_time    (time)      
+
+			

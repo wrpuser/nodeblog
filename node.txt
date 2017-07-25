@@ -1,0 +1,21 @@
+nodeJs项目所需模块：
+
+express                  express框架
+ 
+express-static           读取静态资源
+
+body-parser              解析post数据
+
+multer                   解析上传文件
+
+mysql                    mysql数据库模块
+  
+cookie-parser            cookie模块
+
+cookie-session           session模块
+
+consolidate              加载模版引擎模块
+
+ejs			 模版引擎
+
+express-route            路由模块

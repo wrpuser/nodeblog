@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.top-wrap{
+			width: 960px;
+			height: 80px;
+			line-height: 80px;
+			margin: 0 auto;
+			background: #ddd;
+			text-align: center;
+		}
+		.top-wrap a{
+			margin: 0 10px;
+			text-decoration: none
+		}
+		.content-wrap{
+			width: 958px;
+			margin: 0 auto;
+			border: 1px solid #ccc;
+			min-height: 400px;
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<% include components/top.inc.ejs %>
+		<div class="content-wrap">
+			这是管理首页
+		</div>
+	</div>
+</body>
+</html>
